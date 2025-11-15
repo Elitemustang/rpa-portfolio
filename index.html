@@ -10,8 +10,7 @@
   <div class="container">
     <header class="header">
       <div class="brand">
-        <!-- Logo with dynamic initials -->
-        <div class="logo" id="logo"></div>
+        <div class="logo">TO</div>
         <div>
           <h1>Temitayo Oladimeji</h1>
           <p>RPA Developer • Blue Prism • UiPath • Python • HealthTech interested</p>
@@ -72,6 +71,7 @@
           </div>
         </article>
 
+        <!-- Duplicate for other projects -->
         <article class="card project-card">
           <div class="project-head">
             <h3 class="p-title">NIP Reconciliation Process</h3>
@@ -106,15 +106,5 @@
       <div>Built with ❤️ • Lagos, Nigeria</div>
     </footer>
   </div>
-
-  <!-- Dynamic initials script -->
-  <script>
-    const fullName = "Temitayo Oladimeji"; // change name here if needed
-    const initials = fullName
-      .split(' ')
-      .map(word => word[0])
-      .join('');
-    document.getElementById('logo').textContent = initials.toUpperCase();
-  </script>
 </body>
 </html>
